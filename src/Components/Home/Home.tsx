@@ -5,6 +5,8 @@ import Header from '../Header/Header'
 import Projects from '../Projects/Projects'
 import Loader from '../Loader/Loader'
 import Resume from '../Resume/Resume'
+import AllSkills from '../AllSkills/AllSkills'
+import Experience from '../Experience/Experience'
 
 function Home() {
 
@@ -38,7 +40,8 @@ function Home() {
                 clicked==="Projects" ? 
                 <Projects/>
                 : clicked==="Resume" ? <Resume/>
-                : ""
+                : clicked==="Skills" ? <AllSkills/>
+                : clicked ==="Experience" ? <Experience/> : ""
             }
         </>
     )
