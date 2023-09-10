@@ -15,6 +15,7 @@ function Resume() {
             <div className='flex justify-center'>
                 <button className='bg-[#111827] border-2 rounded-xl p-1 px-2 whitespace-nowrap mt-10' onClick={downloadCV}>VISHNU M K - RESUME</button>
             </div>
+            <i className='fa fa-arrow-up text-center mt-4 animate-bounce text-2xl'></i> 
         </div>
     )
 }
