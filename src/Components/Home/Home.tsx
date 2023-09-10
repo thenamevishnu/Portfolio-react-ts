@@ -24,7 +24,7 @@ function Home() {
 
     return (
         <>
-        <div className='w-5 h-5 bg-gray-800 opacity-60 absolute transition-transform transform rounded-full ease-in-out scroll-smooth' style={{left:`${moved.x}px`,top:`${moved.y}px`}}></div>
+        <div className='w-14 h-14 opacity-30 absolute transition-transform transform rounded-full ease-in-out scroll-smooth pointer-events-none' style={{left:`${moved.x - 27}px`,top:`${moved.y - 27}px`, boxShadow:"0 0 50px white", backgroundColor:"rgba(255, 255, 255, 0.2)", filter:"blur(10px)"}}></div>
             <Header callbackFunction={getClicked}/>
             {
                 clicked==="main" ?

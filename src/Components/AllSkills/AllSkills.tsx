@@ -1,6 +1,7 @@
 import React from 'react'
 import { skillset } from '../../Services/api'
 import {prefix} from "../../DataStructure/Trie"
+import {Tilt} from "react-tilt"
 
 function AllSkills() {
 
@@ -29,10 +30,10 @@ function AllSkills() {
                     {
                         skills.map(item => {
                             return (
-                                <div className="text-center relative cursor-pointer h-32 rounded-2xl group whitespace-nowrap flex justify-center items-center text-white ">
+                                <Tilt key={item.title} options={{max:30, scale:1.05}} className="text-center relative cursor-pointer h-32 rounded-2xl group whitespace-nowrap flex justify-center items-center text-white">
                                     {item.logo!=="" && <img alt={item.title} src={item.logo} className=' group-hover:opacity-10 rounded-2xl w-full h-full'/>}
                                     <span className='absolute top-1/2 translate-y-[-50%] left-1/2 translate-x-[-50%] font-bold opacity-0 group-hover:opacity-100 transition duration-200'>{item.title}</span>
-                                </div>
+                                </Tilt>
                             ) 
                         })
                     }
