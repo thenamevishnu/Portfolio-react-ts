@@ -37,7 +37,7 @@ function Home() {
                 <Projects/>
                 : clicked==="Resume" ? <Resume/>
                 : clicked==="Skills" ? <AllSkills/>
-                : clicked ==="Experience" ? <Experience/> : ""
+                : clicked === "Experience" ? <Experience/> : ""
             }
         </>
     )

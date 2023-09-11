@@ -3,7 +3,7 @@ import React from 'react'
 function Profile() {
     return (
         <div className='text-white'>
-            <div className='mx-10 mt-16'>
+            <div className='mx-10 mt-32'>
                    <h1 className='md:text-5xl text-4xl font-extrabold text-center'>VISHNU M K</h1>
                    <h1 className='text-md font-medium italic leading-[3] text-center'>MERN STACK DEVELOPER</h1>
             </div>

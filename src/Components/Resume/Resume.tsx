@@ -10,8 +10,8 @@ function Resume() {
     }
 
     return (
-        <div className='mt-12 text-center text-white'>
-            <h1 className='text-4xl font-extrabold'>Resume</h1>
+        <div className='mt-20 text-center text-white'>
+            <h2 className='text-center mb-5 text-white text-2xl mt-20 font-bold uppercase'>Resume</h2>
             <div className='flex justify-center'>
                 <button className='bg-[#111827] border-2 rounded-xl p-1 px-2 whitespace-nowrap mt-10' onClick={downloadCV}>VISHNU M K - RESUME</button>
             </div>

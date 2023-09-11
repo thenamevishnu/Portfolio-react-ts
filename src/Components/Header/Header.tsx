@@ -6,7 +6,7 @@ function Header(prop: any) {
     const setSelected = prop.callbackFunction
 
     return (
-        <div className="h-12 flex justify-between items-center">
+        <div className="h-12 flex justify-between items-center bg-[#1b1f24] z-50 fixed top-0 w-screen">
             <div className='md:ml-10 ml-1'>
                 <h1 className='font-bold text-2xl font-mono text-gray-200 cursor-pointer flex items-center' onClick={()=>{setSelected("main"); }}><span className=' text-blue-900'>&lt;&gt;</span> &nbsp;VISHNU M K <img src='./Images/logo.jpg' className='rounded-full w-6 ml-2' alt='logo'/></h1>
             </div>

@@ -5,7 +5,7 @@ export default {
         extend: {
             colors:{
                 "header":"rgba(91, 91, 91, 0.252)"
-            },
+            }
         },
     },
     plugins: [],
