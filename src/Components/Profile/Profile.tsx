@@ -12,7 +12,7 @@ function Profile() {
             </div>
             <div className='text-center mt-6'>
                 <button className='outline-none bg-gray-800 p-2 rounded-xl hover:bg-gray-700 mr-3' onClick={()=>window.open("https://www.linkedin.com/in/thenamevishnu","_blank")}><i className='fab fa-linkedin'></i> LinkedIn</button>
-                <button className='outline-none bg-gray-800 p-2 rounded-xl hover:bg-gray-700 mr-3' onClick={()=>window.open("mailto:mail.vishnumk@gmail.com","_blank")}><i className='fab fa-email'></i> E-Mail</button>
+                <button className='outline-none bg-gray-800 p-2 rounded-xl hover:bg-gray-700 mr-3' onClick={()=>window.open("mailto:mail.vishnumk@gmail.com","_blank")}><i className='fa fa-envelope'></i> E-Mail</button>
                 <button className='outline-none bg-gray-800 p-2 rounded-xl hover:bg-gray-700' onClick={()=>window.open("https://www.github.com/thenamevishnu","_blank")}><i className='fab fa-github'></i> GitHub</button>
             </div>
         </div>
