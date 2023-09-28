@@ -51,6 +51,20 @@ export const projects = [
                 backEnd: null
             } 
     },{
+        title:"Black Board",
+        logo:"./Images/board.png",
+        links:{
+            frontEnd: "https://github.com/thenamevishnu/Black-Board",
+            backEnd: null
+        }
+    },{
+        title:"Music Player",
+        logo:"./Images/music.png",
+        links:{
+            frontEnd: "https://github.com/thenamevishnu/music-player",
+            backEnd: null
+        }
+    },{
         title: "Tinker Hub Clone",
         logo: "./Images/tinkerhub.png",
         links: {
