@@ -27,7 +27,7 @@ function Home() {
             window.removeEventListener("mousemove", handleMouseMove)
         }
         
-    })
+    }, [])
 
     return (
         <>
