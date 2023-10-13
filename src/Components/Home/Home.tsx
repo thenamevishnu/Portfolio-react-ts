@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Profile from '../Profile/Profile'
 import Skills from '../Skills/Skills'
 import Header from '../Header/Header'
@@ -16,11 +16,18 @@ function Home() {
         setClicked(data)
     }
 
-    const handleMouseMove = (e: MouseEvent) => {
-        setMoved({x:e.clientX,y:e.clientY})
-    }
+    useEffect( () => {
+        const handleMouseMove = (e: MouseEvent) => {
+            setMoved({x:e.clientX,y:e.clientY})
+        }
 
-    window.addEventListener("mousemove",handleMouseMove)
+        window.addEventListener("mousemove",handleMouseMove)
+        
+        return () => {
+            window.removeEventListener("mousemove", handleMouseMove)
+        }
+        
+    })
 
     return (
         <>
